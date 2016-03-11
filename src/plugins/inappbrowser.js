@@ -14,7 +14,7 @@ angular.module('ngCordova.plugins.inAppBrowser', [])
 
     this.$get = ['$rootScope', '$q', '$window', '$timeout', function ($rootScope, $q, $window, $timeout) {
       return {
-        isOpen: function() {
+        isOpen: function () {
           if(ref) {
             return true;
           } else {
